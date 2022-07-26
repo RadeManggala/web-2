@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+html {
+    font-family: 'Bebas Neue', cursive;
+}
+.container {
+    background-color: red;
+    max-width: 500px;
+    margin: 0 auto;
+    height: 100vh;
+    background-image: url(background.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment:fixed;
+    position: sticky;
+}
+.profile > img {
+    width: 120px;
+    height: 130px;
+    border: 3px solid black;
+    border-radius: 100%;
+    padding: 20px;
+}
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.profile > p {
+    font-size: 1.8em;
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+}
+.link {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+.link > a {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 7px;
+    background-color: white;
+    margin: 5px 10px;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: 500px;
+}
+.link > a:hover {
+    background-color: azure;
+}
+.footer {
+    text-align: center;
+}
+.footer > i {
+    color: white;
+    font-size: 20px;
+
+}
